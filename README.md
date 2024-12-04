@@ -17,10 +17,28 @@
 - `Pillow`
 
 ### **설치 방법**
-아래 명령어를 사용해 필수 라이브러리를 설치하세요:
+▶️ 아래 명령어를 사용해 필수 라이브러리를 설치하세요:
 ```bash
 pip install torch torchvision numpy scikit-learn matplotlib tqdm pillow
 ```
+
+---
+## 🗂️ **데이터 셋**
+### **BTAD(Btech Anomaly Detection Dataset)**
+- 3개의 클래스('01', '02', '03')로 구성
+- 각 클래스는 학습용 정상 데이터와 테스트용 정상/결함 데이터를 포함합니다.
+  
+- **데이터 다운로드 링크**
+  [https://avires.dimi.uniud.it/papers/btad/btad.zip]
+
+### **MVTec AD (MVTec Anomaly Detection Dataset)**
+- 15개의 클래스(`bottle`, `cable`, `capsule` 등)로 구성되어 있습니다.
+- 클래스별로 다양한 종류의 결함 데이터(스크래치, 파손 등)와 정상 데이터를 포함합니다
+  
+- **데이터 다운로드 링크**
+  [https://www.mydrive.ch/shares/38536/3830184030e49fe74747669442f0f282/download/420938113-1629952094/mvtec_anomaly_detection.tar.xz]
+
+---
 
 ## ⚙️ **사용법**
 1️⃣ BTAD 데이터셋 실행
