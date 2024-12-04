@@ -1,10 +1,13 @@
 # 🚀 **PaDiM 기반 BTAD 및 MVTec 데이터셋 이상 탐지**
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/12qrIF3lPCsk0QGX_n5iFEd_Q1WHu-_JT?usp=drive_link)
-
 ## 📖 **프로젝트 개요**
 이 프로젝트는 **BTAD**와 **MVTec** 데이터셋을 활용하여 **사전 학습된 특징 추출 모델**과 **유클리디안 거리 기반** 이상 점수 계산 방식을 결합한 **이상 탐지(Anomaly Detection)**를 수행합니다.  
 PaDiM(Patch Distribution Modeling)을 기반으로, 학습 데이터의 정상 특징 벡터를 활용해 테스트 이미지의 이상 점수를 산출합니다.
+
+**Google Colab에서 실행하기** 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/12qrIF3lPCsk0QGX_n5iFEd_Q1WHu-_JT?usp=drive_link)
+- 위 버튼을 클릭하면 Google Colab에서 바로 코드를 실행할 수 있습니다.
+- 데이터를 준비한 뒤 모든 셀을 순서대로 실행할 수 있습니다.
 
 ---
 
