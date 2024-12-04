@@ -57,7 +57,8 @@ pip install torch torchvision numpy scikit-learn matplotlib tqdm pillow
 
 ---
 
-## 📊 **주요 로직**
+## 🧠 **주요 로직** :
+
 ### 1️⃣ 특징 벡터 추출
 - MobileNetV2와 WideResNet50 모델의 특정 레이어에서 특징 벡터를 추출합니다.
 - PyTorch Hook을 사용하여 모델의 중간 출력을 저장합니다.
@@ -66,11 +67,11 @@ pip install torch torchvision numpy scikit-learn matplotlib tqdm pillow
 ### 2️⃣ **유클리디안 거리 기반 계산**
 - 학습 데이터와 테스트 데이터의 특징 벡터 사이의 **유클리디안 거리**를 계산합니다.
 
-#### **calc_dist_matrix 함수**:
-- 학습 데이터와 테스트 데이터 간의 거리 행렬을 생성합니다.
-- 거리는 아래 수식으로 계산됩니다:
+- **calc_dist_matrix 함수**:
+-- 학습 데이터와 테스트 데이터 간의 거리 행렬을 생성합니다.
+-- 거리는 아래 수식으로 계산됩니다:
 
-![유클리디안 거리 공식](https://latex.codecogs.com/png.latex?d(x,y)%20=%20\sqrt{\sum_{i}(x_i%20-%20y_i)^2})
+-- ![유클리디안 거리 공식](https://latex.codecogs.com/png.latex?d(x,y)%20=%20\sqrt{\sum_{i}(x_i%20-%20y_i)^2})
 
 
 ### 3️⃣ Top-K 평균 거리 계산
