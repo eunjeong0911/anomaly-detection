@@ -20,3 +20,15 @@
 아래 명령어를 사용해 필수 라이브러리를 설치하세요:
 ```bash
 pip install torch torchvision numpy scikit-learn matplotlib tqdm pillow
+
+## ⚙️ **사용법**
+1️⃣ BTAD 데이터셋 실행
+```bash
+python main.py --dataset BTAD --save_path ./btad_results
+2️⃣ MVTec 데이터셋 실행
+python main.py --dataset MVTec --root_path /path/to/mvtec --save_path ./mvtec_results
+
+## 📊 **주요 결과**
+1️⃣ ROC AUC 점수
+
+2️⃣ ROC 곡선 시각화
