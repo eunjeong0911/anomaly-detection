@@ -5,7 +5,7 @@
 PaDiM(Patch Distribution Modeling)을 기반으로, 학습 데이터의 정상 특징 벡터를 활용해 테스트 이미지의 이상 점수를 산출합니다.
 
 **Google Colab에서 실행하기** 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/12qrIF3lPCsk0QGX_n5iFEd_Q1WHu-_JT?usp=drive_link)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/12qrIF3lPCsk0QGX_n5iFEd_Q1WHu-_JT?usp=sharing)
 - 위 버튼을 클릭하면 Google Colab에서 바로 코드를 실행할 수 있습니다.
 - 데이터를 준비한 뒤 모든 셀을 순서대로 실행할 수 있습니다.
 
