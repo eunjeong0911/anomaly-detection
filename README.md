@@ -55,7 +55,7 @@ pip install torch torchvision numpy scikit-learn matplotlib tqdm pillow
 ## 📊 **ROC Curve 결과**
 ### **MVTec 데이터셋**
 - 아래는 MVTec 데이터셋에서 얻은 ROC 곡선입니다:
-![MVTec ROC Curve](https://drive.google.com/uc?id=1_8B5ggMThg3xxwX4IUfi8eEKVuhcdQPB)
+![MVTec ROC Curve](https://drive.google.com/uc?id=1mVNLymYeTg8ri6Q1wzsFmp1mZTIWx-M5)
 
 ### **BTAD 데이터셋**
 - 아래는 BTAD 데이터셋에서 얻은 ROC 곡선입니다:
