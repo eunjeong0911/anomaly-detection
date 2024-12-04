@@ -40,11 +40,11 @@ python main.py --dataset MVTec --root_path /path/to/mvtec --save_path ./mvtec_re
 ## 📜 **프로젝트 주요 로직**
 1️⃣ 특징 추출
 - MobileNetV2와 WideResNet50 모델의 특정 레이어 출력을 후크(Hook)를 통해 저장.
-- 사전 학습된 모델을 사용하여 학습 및 테스트 데이터의 특징 벡터를 추출.
+- 사전 학습된 모델을 사용하여 학습 및 테스트 데이터의 특징 벡터를 추출.<br>
 2️⃣ 거리 계산
-- calc_dist_matrix 함수를 활용해 학습 데이터와 테스트 데이터 간 유클리디안 거리 계산.
+- calc_dist_matrix 함수를 활용해 학습 데이터와 테스트 데이터 간 유클리디안 거리 계산.<br>
 3️⃣ 이상 점수 계산
-- 거리 행렬에서 Top-K 이웃 거리 평균을 이상 점수로 사용합니다.
+- 거리 행렬에서 Top-K 이웃 거리 평균을 이상 점수로 사용합니다.<br>
 4️⃣ ROC AUC 평가
 - ROC AUC 점수를 계산하고, ROC 곡선을 이미지로 저장.
 
